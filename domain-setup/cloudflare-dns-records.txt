@@ -1,0 +1,12 @@
+; Finch and Folio Events — records supplied by Sites for this domain.
+; Import into the existing finchandfolioevents.com DNS zone.
+; These connect to the existing Site; revised application source is not deployed yet.
+$ORIGIN finchandfolioevents.com.
+$TTL 300
+finchandfolioevents.com.	300	IN	A	162.159.143.30	; cf_tags=cf-proxied:false
+finchandfolioevents.com.	300	IN	A	172.66.3.26	; cf_tags=cf-proxied:false
+www.finchandfolioevents.com.	300	IN	CNAME	custom-domains.chatgpt.site.	; cf_tags=cf-proxied:false
+_openai-site-verification.finchandfolioevents.com.	300	IN	TXT	"openai-site-verification=Yv6dr-obs76lT2LBWLum9DjUo5c3KwXs-i2wUT66NWY"
+_cf-custom-hostname.finchandfolioevents.com.	300	IN	TXT	"bcf8b5e4-7364-4917-8240-614d7fbff379"
+_openai-site-verification.www.finchandfolioevents.com.	300	IN	TXT	"openai-site-verification=gGuul10Zlo4s6-32cwqwcNWtVYAAyLUEThmz7kbahaE"
+_cf-custom-hostname.www.finchandfolioevents.com.	300	IN	TXT	"86e8ee03-6682-4843-ad3a-3c507206eb70"

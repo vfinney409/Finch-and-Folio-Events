@@ -1,0 +1,123 @@
+{
+  "business": {
+    "name": "Finch and Folio Events",
+    "legalName": "Finch and Folio Events, LLC",
+    "website": "https://www.finchandfolioevents.com",
+    "serviceArea": "Topeka and Northeast Kansas"
+  },
+  "weddingServices": [
+    {
+      "id": "the-first-chapter",
+      "name": "The First Chapter",
+      "category": "Budget, timeline, and vendor assistance",
+      "price": 150,
+      "currency": "USD",
+      "description": "Perfect for the newly engaged couple who wants to plan their own wedding but needs a roadmap, a budget, and local resources.",
+      "consultation": "A virtual 30-minute consultation before booking. The following services are provided upon full payment.",
+      "includes": [
+        "A customized wedding budget based on estimated guest count, preferred wedding date and venue options, and overall spending limit.",
+        "A month-by-month wedding planning checklist tailored to your estimated wedding date and planning stage.",
+        "A curated list of local vendors and venues, with links and contact information where available.",
+        "A $50 credit toward standard Custom Officiant Services or Day-of Coordination."
+      ],
+      "notes": [
+        "Currently limited to Northeast Kansas couples who have booked a venue or have a shortlist of preferred venues and wedding dates. Outside Northeast Kansas? Inquire to discuss available support.",
+        "The $50 credit cannot be combined with other discounts or credits and does not apply to travel fees or add-ons.",
+        "This service provides planning guidance. Clients independently plan their wedding, secure vendors, and tour venues; comprehensive wedding planning is not included.",
+        "Budget recommendations are estimates based on trends and do not account for individual vendor or venue price changes."
+      ]
+    },
+    {
+      "id": "the-short-story",
+      "name": "The Short Story",
+      "category": "Micro-Wedding Officiant",
+      "price": 175,
+      "currency": "USD",
+      "description": "For the couple who wants a simple, intimate ceremony with a professional officiant, limited customization, and two hours of event-day service.",
+      "consultation": "A virtual 30-minute consultation before contract signing, followed by one virtual ceremony planning meeting after full payment.",
+      "includes": [
+        "Your choice of one of five standard ceremony scripts, with minor customizations to names, pronouns, and a personal detail during your planning meeting.",
+        "Two hours of event-day service, with arrival one hour before the ceremony begins.",
+        "A brief rehearsal or processional walkthrough within the two-hour service window, if time allows.",
+        "Ceremony officiating and marriage license signing after the ceremony."
+      ],
+      "notes": [
+        "For ceremonies with up to 49 guests and no more than eight people in the processional, including the couple.",
+        "The couple must obtain and bring a valid marriage license and follow the issuing court's instructions for returning it.",
+        "Finch and Folio Events is not responsible for license errors resulting from incorrect or incomplete information supplied by clients or the clerk's office.",
+        "Audio-visual equipment is not provided. Please arrange any microphones with your DJ or other audio provider."
+      ]
+    },
+    {
+      "id": "the-heart-of-the-story",
+      "name": "The Heart of the Story",
+      "category": "Custom Officiant Services",
+      "price": 450,
+      "currency": "USD",
+      "description": "For the couple who wants a customized ceremony script, multiple planning sessions, and rehearsal support. Build a relationship with your officiant and create a ceremony as unique as your love story.",
+      "consultation": "A complimentary 30-minute consultation, in person or virtually, before contract signing. The following services are provided upon full payment.",
+      "includes": [
+        "One ceremony planning meeting three to six months before your event.",
+        "One timeline and ceremony review meeting one to three months before your event.",
+        "A customized ceremony script, finalized and shared with applicable parties at least one week before your event.",
+        "One hour of ceremony rehearsal and processional coordination, if scheduled.",
+        "Arrival two hours before the ceremony begins.",
+        "Ceremony officiating and marriage license signing after the ceremony."
+      ],
+      "notes": [
+        "The couple must obtain and bring a valid marriage license and follow the issuing court's instructions for returning it.",
+        "Finch and Folio Events is not responsible for license errors resulting from incorrect or incomplete information supplied by clients or the clerk's office.",
+        "Audio-visual equipment is not provided. Please arrange any microphones with your DJ or other audio provider."
+      ]
+    },
+    {
+      "id": "the-plot-comes-together",
+      "name": "The Plot Comes Together",
+      "category": "Day-of Coordination",
+      "price": 750,
+      "currency": "USD",
+      "description": "You've planned your special day. Let an experienced wedding professional manage the logistics and bring it all together, so you and your guests can enjoy the celebration.",
+      "consultation": "A complimentary 30-minute consultation, in person or virtually, before contract signing. The following services are provided upon full payment.",
+      "includes": [
+        "One wedding planning check-in meeting three to six months before your event.",
+        "One day-of itinerary drafting meeting one to three months before your event.",
+        "Vendor communication and coordination.",
+        "Ceremony and reception logistics planning.",
+        "A customized final timeline, distributed to applicable parties and vendors at least one week before your event.",
+        "One hour of ceremony rehearsal and processional coordination, if scheduled.",
+        "Six total hours of event-day coordination, beginning two hours before the ceremony."
+      ],
+      "notes": []
+    },
+    {
+      "id": "the-duology",
+      "name": "The Duology",
+      "category": "Combine and Save: Officiant & Day-of Coordination",
+      "price": 1100,
+      "currency": "USD",
+      "description": "Bring your ceremony and celebration together with combined officiant and day-of coordination services.",
+      "includes": [],
+      "notes": []
+    }
+  ],
+  "eventServices": {
+    "id": "event-services",
+    "name": "Event Services",
+    "startingHourlyRate": 40,
+    "currency": "USD",
+    "minimumHours": 3,
+    "priceLabel": "Starting at $40 per hour · 3-hour minimum",
+    "description": "Finch and Folio Events provides hourly support for moderately sized, local, private events. From community workshops and nonprofit fundraisers to business open houses and private celebrations, I offer flexible event planning and coordination services for individuals, businesses, nonprofits, schools, and community organizations throughout Topeka and Northeast Kansas. Whether you need help organizing an idea, coordinating the details you've already planned, or managing logistics on event day, my services can be tailored to your needs, priorities, and budget.",
+    "inquiryText": "Inquire for more details, availability, and pricing."
+  },
+  "addOns": [
+    { "name": "Rush fee", "price": 100, "unit": "flat" },
+    { "name": "Additional planning consultation", "price": 75, "unit": "session" },
+    { "name": "Additional day-of coordination hours", "price": 50, "unit": "hour" },
+    { "name": "Additional assistant", "price": 175, "unit": "flat" },
+    { "name": "Travel: 30–60 miles", "price": 50, "unit": "day" },
+    { "name": "Travel: 61–100 miles", "price": 100, "unit": "day" },
+    { "name": "Overnight travel", "price": null, "priceLabel": "Quoted by event" },
+    { "name": "Decorating & tear-down", "price": 150, "unit": "hour" }
+  ]
+}
